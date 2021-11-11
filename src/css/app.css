@@ -1,0 +1,80 @@
+#app {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#app .container {
+  width: 376px;
+  height: 666px;
+  z-index: 100;
+
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, .9);
+}
+
+#app .container-view {
+  padding: 20px;
+}
+
+.cellContainer {
+  align-items: center;
+}
+
+#primaryInfo {
+  align-items: center;
+}
+
+#secondayInfo {
+  align-items: center;
+}
+
+ul {
+  padding-bottom: 20px;
+}
+
+li {
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.30);
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.archiveAllContainer {
+  width: auto;
+  height: 35px;
+}
+
+.archiveAll {
+  background:rgba(0, 117, 0, 1);
+  border-radius: 10px;
+  height: auto;
+  width: 10em;
+}
+
+.singleArchive {
+  background: rgba(114, 231, 114, 1);
+  border-radius: 15px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.primaryInfo {
+  color: red;
+}
+
+.secondaryInfo {
+  color:rgba(0, 0, 0, 0.5);
+}
