@@ -2,6 +2,9 @@
   "name": "frontend-hiring-challenge",
   "version": "1.0.0",
   "description": "Leap test",
+  "engines": {
+    "node": "6.11.1"
+  },
   "main": "index.js",
   "repository": "",
   "author": "",
